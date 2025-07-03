@@ -22,7 +22,6 @@ node_modules
 **/resources/proto
 
 # ignore settings.json
-frontend/.vscode/settings.json
 
 # Commit the highest level pubspec.lock, but ignore the others
 pubspec.lock
@@ -42,3 +41,7 @@ frontend/*.deb
 **/Cargo.toml.bak
 
 **/.cargo/**
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
